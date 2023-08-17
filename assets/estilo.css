@@ -1,0 +1,72 @@
+
+#fotoperfil{
+    width: 240px; height: 240px;
+    background-image: linear-gradient( to top left, rgb(23, 7, 248), rgb(21, 230, 245) 5%, rgb(122, 60, 238));
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+}
+
+#foto{
+    width: 230px; height: 230px;  
+    border-radius: 100%;
+    
+}
+
+
+#nome{
+    width: 420px; height: 100px;
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+
+#nomefonte{
+    color: rgb(13, 1, 114);
+}
+
+#rodape{
+
+    text-align: center;
+    color: #353333;
+}
+
+.blocomenu{
+    height: 40px;
+    background-image: linear-gradient( to right, rgb(127, 144, 240) 5%, rgb(38, 95, 253));
+    display: flex;
+    flex-direction : row;
+    justify-content: left;
+    align-items: center;    
+}
+
+.container{
+    display : flex;
+    flex-direction : row;
+    padding: 10px;
+    background-color: rgb(214, 238, 238);
+}
+
+.botao{
+    width: 155px; height: 20px;
+    background-color: rgb(181, 196, 214);
+    border: #09162e;
+    text-align: center; 
+    border-radius: 3%;
+    margin-left: 2%;     
+    }
+
+a{
+    color: #09162e;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.fundobase{
+    background-color: rgb(218, 250, 250);
+    height: 900px;
+}
